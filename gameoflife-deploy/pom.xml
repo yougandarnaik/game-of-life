@@ -28,18 +28,7 @@
                             <cargo.tomcat.manager.url>${tomcat.manager.url}</cargo.tomcat.manager.url>
                         </properties>
                     </configuration>
-                    <deployer>
-                        <deployables>
-                            <deployable>
-                                <groupId>com.wakaleo.gameoflife</groupId>
-                                <artifactId>gameoflife-web</artifactId>
-                                <type>war</type>
-                                <properties>
-                                    <context>gameoflife</context>
-                                </properties>
-                            </deployable>
-                        </deployables>
-                    </deployer>
+                    
                 </configuration>
             </plugin>
         </plugins>
